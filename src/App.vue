@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <CalendarDate />
   <Form3 />
   <MultipleEventHand />
   <CondiListRen />
@@ -43,6 +44,7 @@ import ArrayLoop from './components/ArrayLoop.vue'
 import CondiListRen from './components/CondiListRen.vue'
 import MultipleEventHand from './components/MultipleEventHand.vue'
 import Form3 from './components/Form3.vue'
+import CalendarDate from './components/CalendarDate.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -66,6 +68,7 @@ export default {
     CondiListRen,
     MultipleEventHand,
     Form3,
+    CalendarDate,
     // ApiTwo
   },
   beforeCreate(){
