@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <PopUp />
   <ComputedSetterNGetter />
   <CalendarDate />
   <Form3 />
@@ -47,6 +48,7 @@ import MultipleEventHand from './components/MultipleEventHand.vue'
 import Form3 from './components/Form3.vue'
 import CalendarDate from './components/CalendarDate.vue'
 import ComputedSetterNGetter from './components/ComputedSetterNGetter.vue'
+import PopUp from './components/PopUp.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -72,6 +74,7 @@ export default {
     Form3,
     CalendarDate,
     ComputedSetterNGetter,
+    PopUp,
     // ApiTwo
   },
   beforeCreate(){
