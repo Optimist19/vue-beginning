@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <ComputedSetterNGetter />
   <CalendarDate />
   <Form3 />
   <MultipleEventHand />
@@ -45,6 +46,7 @@ import CondiListRen from './components/CondiListRen.vue'
 import MultipleEventHand from './components/MultipleEventHand.vue'
 import Form3 from './components/Form3.vue'
 import CalendarDate from './components/CalendarDate.vue'
+import ComputedSetterNGetter from './components/ComputedSetterNGetter.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -69,6 +71,7 @@ export default {
     MultipleEventHand,
     Form3,
     CalendarDate,
+    ComputedSetterNGetter,
     // ApiTwo
   },
   beforeCreate(){
