@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <voncepre />
   <ModiFiers />
   <PopUp />
   <ComputedSetterNGetter />
@@ -51,6 +52,7 @@ import CalendarDate from './components/CalendarDate.vue'
 import ComputedSetterNGetter from './components/ComputedSetterNGetter.vue'
 import PopUp from './components/PopUp.vue'
 import ModiFiers from './components/ModiFiers.vue'
+import voncepre from './components/VOnceAndpre.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -78,6 +80,7 @@ export default {
     ComputedSetterNGetter,
     PopUp,
     ModiFiers,
+    voncepre,
     // ApiTwo
   },
   beforeCreate(){
