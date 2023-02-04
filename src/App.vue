@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <ComputedPropsTwo />
   <ComputedPropsOne />
   <ComputedProp />
   <voncepre />
@@ -57,6 +58,7 @@ import ModiFiers from './components/ModiFiers.vue'
 import voncepre from './components/VOnceAndpre.vue'
 import ComputedProp from './components/ComputedProp.vue'
 import ComputedPropsOne from './components/ComputedPropsOne.vue'
+import ComputedPropsTwo from './components/ComputedPropsTwo.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -87,6 +89,7 @@ export default {
     voncepre,
     ComputedProp,
     ComputedPropsOne,
+    ComputedPropsTwo,
     // ApiTwo
   },
   beforeCreate(){

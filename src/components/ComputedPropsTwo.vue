@@ -1,6 +1,7 @@
 <template>
-  <h1>Computed Property example 1 </h1>
+  <h1>Computed Property example 2 </h1>
   <p>{{getPrice}}</p>
+  <p v-for="item in getPrice" :key="id">{{item.price}}</p>
 </template>
 
 
@@ -11,27 +12,25 @@
         items: [
           {
           id: 1,
-          item: "Tv",
+          title: "Tv",
           price: "100"
           },
           {
           id: 2,
-          item: "Phone",
+          title: "Phone",
           price: "200"
           },
           {
           id: 3,
-          item: "Monitor",
+          title: "Monitor",
           price: "300"
           }
         ]
       }
     },
     computed:{
-      // this isn't working well, it's not adding up
       getPrice(){
-        return this.items.reduce((acc, curr) => (acc = acc + curr.price), 0)
-        // return this.items.reduce((acc, curr) => (acc = acc + curr.item), 0)
+        return this.items.filter(a => a.price > 200)
       }
     }
   }
