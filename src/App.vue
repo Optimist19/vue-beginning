@@ -1,5 +1,7 @@
 <template>
   <!-- <router-view></router-view> -->
+  <ComputedPropsOne />
+  <ComputedProp />
   <voncepre />
   <ModiFiers />
   <PopUp />
@@ -53,6 +55,8 @@ import ComputedSetterNGetter from './components/ComputedSetterNGetter.vue'
 import PopUp from './components/PopUp.vue'
 import ModiFiers from './components/ModiFiers.vue'
 import voncepre from './components/VOnceAndpre.vue'
+import ComputedProp from './components/ComputedProp.vue'
+import ComputedPropsOne from './components/ComputedPropsOne.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -81,6 +85,8 @@ export default {
     PopUp,
     ModiFiers,
     voncepre,
+    ComputedProp,
+    ComputedPropsOne,
     // ApiTwo
   },
   beforeCreate(){
