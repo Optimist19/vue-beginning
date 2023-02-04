@@ -1,7 +1,7 @@
 <template>
-  <div v-if="notshow">
+  <div v-show="notshow">
     <p>Pop 1</p>
-    <button @click="notshow = !notshow">toogle out</button>
+    <button @click="notshow = true">toogle out</button>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
   export default{
     data(){
       return{
-        notshow: true
+        notshow: false
       }
     },
     props:{

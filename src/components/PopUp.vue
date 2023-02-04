@@ -1,7 +1,7 @@
 <template>
   <p>Pop</p>
-  <button @dblclick="data=!data">toggle in</button>
-  <PopUpExample v-if="data" />
+  <button @click="data = true">toggle in</button>
+  <PopUpExample v-show="data" />
 </template>
 
 <script>
@@ -11,7 +11,7 @@
   export default{
     data(){
       return{
-        data: true,
+        data: false,
         // notShow: false
       }
     },
