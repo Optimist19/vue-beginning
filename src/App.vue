@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <ModiFiers />
   <PopUp />
   <ComputedSetterNGetter />
   <CalendarDate />
@@ -49,6 +50,7 @@ import Form3 from './components/Form3.vue'
 import CalendarDate from './components/CalendarDate.vue'
 import ComputedSetterNGetter from './components/ComputedSetterNGetter.vue'
 import PopUp from './components/PopUp.vue'
+import ModiFiers from './components/ModiFiers.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -75,6 +77,7 @@ export default {
     CalendarDate,
     ComputedSetterNGetter,
     PopUp,
+    ModiFiers,
     // ApiTwo
   },
   beforeCreate(){
