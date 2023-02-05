@@ -1,5 +1,6 @@
 <template>
   <!-- <router-view></router-view> -->
+  <CustomCompEvent />
   <WatchExample />
   <ComputedPropsTwo />
   <ComputedPropsOne />
@@ -61,6 +62,7 @@ import ComputedProp from './components/ComputedProp.vue'
 import ComputedPropsOne from './components/ComputedPropsOne.vue'
 import ComputedPropsTwo from './components/ComputedPropsTwo.vue'
 import WatchExample from './components/WatchExample.vue'
+import CustomCompEvent from './components/CustomCompEvent.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
 export default {
@@ -93,6 +95,7 @@ export default {
     ComputedPropsOne,
     ComputedPropsTwo,
     WatchExample,
+    CustomCompEvent,
     // ApiTwo
   },
   beforeCreate(){
