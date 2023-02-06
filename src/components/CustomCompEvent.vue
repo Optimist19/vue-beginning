@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import Popup from "./ChildCustom.vue"
+  import ChildCustom from "./ChildCustom.vue"
   export default{
     components:{
       ChildCustom,
@@ -18,3 +18,5 @@
     
   }
 </script> -->
+
+<!-- This isn't working and and the child, it workd in VSC, check thesame sample inthe other codebase on github -->
