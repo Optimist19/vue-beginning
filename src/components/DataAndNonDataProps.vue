@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Data And Non Data</p>
+    <p v-bind="$attrs">Data And Non Data</p>
     <p>{{name}}</p>
   </div>
 </template>
@@ -8,13 +8,9 @@
 <script>
   export default{
     name: "DataAndNonData",
-    data(){
-      return{
-
-      }
-    },
+    inheritAttrs: false,
     props:{
-      name: String
+      name: String,
     }
   }
 </script>

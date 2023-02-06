@@ -1,20 +1,20 @@
-<template>
-  <h1>Emit</h1>
-  <button @click="show = true">Open Child</button>
-  <ChildCustomCompEvent v-show="show" @display = "faceShow = false" />
+<!-- <template>
+  <button @clcik="showPopup = true">Show Popup</button>
+  <ChildCustom v-show="showPopup" @close="showPopup = false" />
 </template>
 
 <script>
-  import ChildCustomCompEvent from "./ChildCustomCompEvent.vue"
+  import Popup from "./ChildCustom.vue"
   export default{
+    components:{
+      ChildCustom,
+    },
     data(){
       return{
-        show: false,
-        // faceShow:""
+        showPopup: false
       }
-    },
-    components:{
-      ChildCustomCompEvent
     }
+
+    
   }
-</script>
+</script> -->

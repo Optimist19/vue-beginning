@@ -10,7 +10,7 @@
     name: "DataAndNonDataOne",
     inheritAttrs: false,
     props:{
-      // name: String
+      name: String
     }
   }
 </script>
