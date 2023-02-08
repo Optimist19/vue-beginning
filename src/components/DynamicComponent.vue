@@ -1,5 +1,5 @@
 <template>
-  <p>Dynamic Component</p>
+  <h1>Dynamic Component</h1>
   <button @click="tab='Java'">Java</button>
   <button @click="tab='Node'">Node</button>
   <button @click="tab='Php'">Php</button>

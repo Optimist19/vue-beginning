@@ -1,5 +1,5 @@
 <template>
- <form>
+ <form @sumit="setReminder()">
     <label for="date">
       <input type="date" id="date" v-model="reminder.date" id="first"/>
     </label>
@@ -8,7 +8,7 @@
       <textarea v-model.number="reminder.description" id="text">
       </textarea>
     <label>
-    <button @click="setReminder()">Set Reminder</button>
+    <button>Set Reminder</button>
   <form>
   <p>{{reminder}}</p>
   <!-- <button></button> -->
