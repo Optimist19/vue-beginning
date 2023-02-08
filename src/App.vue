@@ -1,6 +1,10 @@
 <template>
   <!-- <router-view></router-view> -->
   <!-- <CustomCompEvent /> -->
+  <div id="app">
+    <FilterSearch/>
+  </div>
+  <SearchColor />
   <WatchExample />
   <ComputedPropsTwo />
   <ComputedPropsOne />
@@ -62,6 +66,8 @@ import ComputedProp from './components/ComputedProp.vue'
 import ComputedPropsOne from './components/ComputedPropsOne.vue'
 import ComputedPropsTwo from './components/ComputedPropsTwo.vue'
 import WatchExample from './components/WatchExample.vue'
+import SearchColor from './components/SearchColor.vue'
+import FilterSearch from './components/FilterSearch.vue'
 // import CustomCompEvent from './components/CustomCompEvent.vue'
 // import ApiTwo from './components/ApiTwo.vue'
 
@@ -95,6 +101,8 @@ export default {
     ComputedPropsOne,
     ComputedPropsTwo,
     WatchExample,
+    SearchColor,
+    FilterSearch,
     // CustomCompEvent,
     // ApiTwo
   },
