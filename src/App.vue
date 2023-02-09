@@ -113,11 +113,12 @@ export default {
     // ApiTwo
   },
   beforeCreate(){
-    console.log("beforeCreate")
+    // console.log("beforeCreate")
+    alert(`This is beforeCreated`)
   },
-  Created(){
-    console.log("Create")
-  }
+  // Created(){
+  //   console.log("Create")
+  // }
 }
 </script>
 
